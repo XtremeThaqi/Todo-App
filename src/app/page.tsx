@@ -44,8 +44,8 @@ export default function Page() {
     <main className="bg-[#608ec6] min-h-screen max-h-full w-full">
       <div onKeyDown={deleteKey} className="flex flex-col items-center py-24">
         <header className="mb-10">
-          <h2 className="text-5xl text-slate-700 text-center max-sm:text-4xl underline">
-            Whats On Your Mind?
+          <h2 className="text-4xl text-slate-700 text-center max-sm:text-4xl underline">
+            What Goals Are You Setting Today?
           </h2>
         </header>
         <div className="flex flex-col">
@@ -55,15 +55,15 @@ export default function Page() {
                 className="w-full outline-none py-3 px-2 bg-transparent border border-slate-600 rounded-lg text-[#1D3E73] placeholder:text-[#1D3E73] focus:border-[#0D47A1]"
                 type="text"
                 value={task}
-                placeholder="What Do You Want To Do?"
+                placeholder="Write down your next big goal..."
                 onChange={(e) => setTask(e.target.value)}
                 onKeyDown={onKeyDown}
               />
               <button
-                className="w-32 py-3 bg-[#1D3E73] text-[#fff] rounded-lg hover:bg-[#204786] duration-300 transition-all"
+                className="w-32 py-1 text-md bg-[#1D3E73] text-[#fff] rounded-lg hover:bg-[#204786] duration-300 transition-all"
                 onClick={addTodo}
               >
-                Add Todo
+                Add Your Next Goal
               </button>
             </div>
           </form>
