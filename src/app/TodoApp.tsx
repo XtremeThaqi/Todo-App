@@ -105,10 +105,10 @@ export default function Page() {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-4 max-sm:text-4xl">
-            What's Your <span className="text-white">Mission Today?</span>
+            What&apos;s Your <span className="text-white">Mission Today?</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            "Dream it. Plan it. Achieve it." Track your goals with purpose.
+            &quot;Dream it. Plan it. Achieve it.&quot; Track your goals with purpose.
           </p>
         </header>
 
